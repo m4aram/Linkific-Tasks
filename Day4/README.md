@@ -27,11 +27,9 @@ The project uses Stack for overlapping UI elements.
 It also demonstrates:
 -Positioned
 -Alignment
--Fit properties
 ##ListView
 The project uses:
 -ListView.builder
--ListView.separated
 -Scrolling behavior
 -Custom scroll physics
 The ListView contains more than 100 items to demonstrate list performance.
