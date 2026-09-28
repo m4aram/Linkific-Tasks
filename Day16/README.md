@@ -1,29 +1,44 @@
-Firebase Authentication in Flutter
-Task
+# Firebase Authentication in Flutter
 
-Implement Firebase Authentication in a Flutter application, including email/password authentication, Google Sign-In, authentication state management, and user profile display.
+## Task
 
-1. Firebase Setup
-   Created a Firebase project.
-   Added the Android application.
-   Configured Firebase with the Flutter project.
-   Added google-services.json.
-   Configured Firebase using FlutterFire.
-   Configured Android Firebase settings.
-   Added Firebase dependencies.
-   Dependencies
-   firebase_core
-   firebase_auth
-   google_sign_in
-2. Firebase Initialization
+Implement Firebase Authentication in a Flutter application, including:
+
+- Email/password authentication
+- Google Sign-In
+- Authentication state management
+- User profile display
+
+## 1. Firebase Setup
+
+The Firebase project was created and configured with the Flutter application.
+
+The following steps were completed:
+
+- Created a Firebase project.
+- Added the Android application.
+- Configured Firebase with the Flutter project.
+- Added `google-services.json`.
+- Configured Firebase using FlutterFire.
+- Configured Android Firebase settings.
+- Added Firebase dependencies.
+
+### Dependencies
+
+- `firebase_core`
+- `firebase_auth`
+- `google_sign_in`
+
+## 2. Firebase Initialization
 
 Firebase is initialized when the application starts using:
 
+```dart
 await Firebase.initializeApp(
-options: DefaultFirebaseOptions.currentPlatform,
+  options: DefaultFirebaseOptions.currentPlatform,
 );
 3. Email & Password Authentication
-   Register
+Register
 
 Implemented user registration using:
 
@@ -73,7 +88,7 @@ If the user is authenticated → Home screen.
 If the user is not authenticated → Login screen.
 7. User Profile
 
-The authenticated user's information is displayed in the Home screen.
+The authenticated user's information is displayed on the Home screen.
 
 The displayed information includes:
 
@@ -94,21 +109,21 @@ Google Sign-In
 Authentication state changes
 User profile information
 9. Project Structure
-   lib/
-   ├── main.dart
-   ├── firebase_options.dart
-   ├── services/
-   │   └── auth_service.dart
-   └── screens/
-   ├── auth/
-   │   ├── login_screen.dart
-   │   └── register_screen.dart
-   └── home_screen.dart
+lib/
+├── main.dart
+├── firebase_options.dart
+├── services/
+│   └── auth_service.dart
+└── screens/
+    ├── auth/
+    │   ├── login_screen.dart
+    │   └── register_screen.dart
+    └── home_screen.dart
 10. How to Run
-    Install the project dependencies:
-    flutter pub get
-    Run the application:
-    flutter run
+Install the project dependencies
+flutter pub get
+Run the application
+flutter run
 11. Result
 
 Firebase Authentication was successfully integrated into the Flutter application with:
