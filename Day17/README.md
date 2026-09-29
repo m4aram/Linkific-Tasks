@@ -524,5 +524,4 @@ It provides a practical example of using Supabase services in a Flutter mobile a
 
 ```
 
-هذا الشكل أنسب كـ **README لمشروع GitHub** لأنه مرتب من: **Setup → Authentication → Database → RLS → Realtime → Structure → Flow → Features → Technologies → Run**.
 ```
