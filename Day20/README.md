@@ -174,18 +174,4 @@ There are no `_loading`, `_error`, `setState`, or `initState` calls. `ref.invali
 
 `demo@example.com` / `123456` (the login is simulated with a 1 second delay).
 
-## Deliverables checklist
 
-- [x] App using Riverpod
-- [x] Multiple provider types (Provider, StateProvider, StateNotifierProvider, NotifierProvider, FutureProvider, StreamProvider)
-- [x] API integration with Riverpod (`FutureProvider`, `.family`, search, refresh, retry, delete)
-- [x] State management examples (Todo, cart, auth)
-- [x] Hooks (`HookConsumerWidget`)
-- [x] Previous app converted to Riverpod
-- [x] Tests (`flutter test`)
-- [x] Comparison document ([COMPARISON.md](COMPARISON.md))
-- [x] README with Riverpod guide
-
-## Screenshots
-
-_Add screenshots here._
