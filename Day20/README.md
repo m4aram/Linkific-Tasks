@@ -160,15 +160,6 @@ There are no `_loading`, `_error`, `setState`, or `initState` calls. `ref.invali
 
 ---
 
-## Riverpod 3 notes (important)
-
-- `StateProvider`, `StateNotifierProvider`, and `ChangeNotifierProvider` moved to
-  `import 'package:flutter_riverpod/legacy.dart';`. They still work, but `Notifier` / `AsyncNotifier` are the recommended API.
-  This project uses `StateNotifier` for the todos because the task asks for it, and `Notifier` for the cart and auth.
-- **Automatic retry**: a provider that fails is retried automatically (up to 10 times, with growing delays).
-  `main.dart` disables it with `ProviderScope(retry: (retryCount, error) => null, ...)`, so the error screen and the
-  Retry button appear immediately. Tests do the same with `ProviderContainer(retry: ...)`.
-- Providers compare states with `==`. That is why state classes are immutable and `TodoStats` / `CartSummary` override `==`.
 
 ## Demo account
 
