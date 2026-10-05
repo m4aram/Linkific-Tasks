@@ -376,54 +376,8 @@ flutter run
 - Immutable models
 - JSON serialization
 
-## 16. Testing Checklist
 
-### GetX
-- [ ] Counter increments/decrements
-- [ ] Reactive UI updates
-- [ ] Package selection updates
-- [ ] Details navigation works
-- [ ] Back navigation works
-
-### Freezed
-- [ ] Product model compiles
-- [ ] Generated files exist
-- [ ] `copyWith` works
-- [ ] JSON serialization works
-- [ ] Result/union states compile
-
-### GoRouter
-- [ ] Home route works
-- [ ] Package routes work
-- [ ] Back navigation works
-- [ ] Route paths work
-- [ ] Deep-link/parameter concepts are demonstrated
-- [ ] Typed routes compile when enabled
-
-### Dio
-- [ ] Request works
-- [ ] Loading state works
-- [ ] Error state works
-- [ ] Interceptor works
-- [ ] Request cancellation works
-- [ ] Download works
-
-### Hive
-- [ ] Create works
-- [ ] Read works
-- [ ] Update works
-- [ ] Delete works
-- [ ] Clear works
-- [ ] Persistence works
-
-### Utilities
-- [ ] Date formatting
-- [ ] Currency formatting
-- [ ] URL opening
-- [ ] Native share sheet
-- [ ] Connectivity status
-
-## 17. Deliverables
+## 16. Deliverables
 
 ### App using multiple packages
 Completed through the Flutter Package Explorer application.
@@ -443,7 +397,7 @@ Included in this README/documentation, covering GetX, GoRouter, Dio, Hive, Freez
 ### README with recommendations
 This README includes package descriptions, comparisons, recommendations, setup, project structure, testing and deliverables.
 
-## 18. Package Recommendations
+## 17. Package Recommendations
 
 **GetX:** useful for lightweight reactive state management and dependency injection.
 
@@ -463,7 +417,7 @@ This README includes package descriptions, comparisons, recommendations, setup, 
 
 **connectivity_plus:** recommended for monitoring network connectivity.
 
-## 19. Final Learning Outcome
+## 18. Final Learning Outcome
 
 The project focuses on understanding what each package solves, how to integrate it, how it compares with alternatives, and when it should be used.
 
@@ -481,7 +435,7 @@ share_plus
 connectivity_plus
 ```
 
-## 20. Requirement Summary
+## 19. Requirement Summary
 
 | Requirement | Status |
 |---|---|
