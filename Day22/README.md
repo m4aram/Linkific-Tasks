@@ -58,8 +58,4 @@ Read [DEBUGGING_PRACTICE.md](DEBUGGING_PRACTICE.md) (the practice document) and 
 - Long lists: `ListView.builder`. Heavy work: `compute()`.
 - Measure before and after, in profile mode.
 
-## Error handling in this project
-
-`lib/error/error_handling.dart` connects the three hooks, and `lib/error/crash_reporter.dart` is the interface
-that Crashlytics plugs into (setup in docs/CRASHLYTICS.md).
 
