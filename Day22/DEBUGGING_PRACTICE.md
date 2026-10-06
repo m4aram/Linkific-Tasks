@@ -55,23 +55,9 @@ How to read these numbers:
 - The average of about 32 to 34 ms means the emulator draws about 30 frames per second in debug mode even when idle, so the **jank percentages are not meaningful** here. Exact frame times need `flutter run --profile` on a real phone.
 - The counters (rows built, build count) do not depend on speed, so they are reliable even in debug mode.
 
-## 3. DevTools screenshots
 
-| # | Screenshot | Status |
-|---|------------|--------|
-| 1 | DevTools connected to the app ("Connected app", Flutter 3.47.1, debug build) | Done |
-| 2 | Inspector: widget tree with `Errors: 3` | Done |
-| 3 | Inspector: the overflowing Row selected (`overflowed by 169 pixels`) with Widget properties | Done |
-| 4 | Performance: frame chart with a red (jank) frame, buggy Performance lab | To do |
-| 5 | Performance: the same chart after the fix | To do |
-| 6 | CPU Profiler: flame chart showing `heavyWork` | To do |
-| 7 | Memory: snapshot filtered by `_LeakyPageState` | To do |
-| 8 | Network: the list of requests (200, 404, failed ones) | To do |
-| 9 | Logging: messages from `developer.log` with the name `DebugLab` | To do |
-| 10 | The breakpoint paused in Android Studio, with the Variables panel visible | To do |
-| 11 | The in-app Crash log screen | To do |
 
-## 4. What was observed
+## 3. What was observed
 
 - **Console**: three messages `A RenderFlex overflowed by 169 / 96 / 90 pixels` when the buggy Layout lab opened. The Inspector counted the same three errors (`Errors: 3`).
 - **Breakpoint exercise**: the buggy order total shows `27.0`, the fixed one shows `90.0`.
@@ -83,7 +69,7 @@ How to read these numbers:
    2. The memory leak counters stayed at zero: they were changed inside `initState` and `dispose`, which run while Flutter builds the tree. Fixed by publishing the counters in a microtask.
    3. The assert button looked like it did nothing, because an assert only prints to the console. Fixed by adding a SnackBar.
 
-## 5. A debugging workflow that works
+## 4. A debugging workflow that works
 
 1. **Reproduce** the bug with the shortest steps.
 2. **Read** the error message and the first line of the stack trace that is in YOUR code.
