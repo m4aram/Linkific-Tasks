@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test Coverage Report - flutter_testing_tasks</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;padding:32px;background:#fff;color:#1c2330}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:#5b6472;margin:0 0 24px;font-size:14px}
+.cards{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+.card{border:1px solid #d8dde5;border-radius:8px;padding:14px 20px;min-width:150px}
+.card b{display:block;font-size:24px}
+.card span{font-size:13px;color:#5b6472}
+.wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border-bottom:1px solid #e3e7ed;padding:9px 12px;text-align:left}
+th{background:#f4f6f9;font-weight:600}
+td.f{font-family:Consolas,monospace}
+td.n,th.n{text-align:right;white-space:nowrap}
+tfoot td{font-weight:700;background:#f4f6f9}
+.bar{width:140px;height:10px;background:#f1c9c9;border-radius:5px;overflow:hidden}
+.bar span{display:block;height:100%;background:#2e9e5b}
+.note{margin-top:24px;font-size:14px;line-height:1.6}
+code{font-family:Consolas,monospace;background:#f4f6f9;padding:1px 5px;border-radius:4px}
+</style></head><body>
+<h1>Test Coverage Report</h1>
+<p class="sub">Project: flutter_testing_tasks &nbsp;|&nbsp; Generated from <code>coverage/lcov.info</code> (<code>flutter test --coverage</code>) &nbsp;|&nbsp; 7 October 2026</p>
+<div class="cards">
+<div class="card"><b>97.5%</b><span>Line coverage</span></div>
+<div class="card"><b>157 / 161</b><span>Lines covered</span></div>
+<div class="card"><b>10</b><span>Source files</span></div>
+<div class="card"><b>49 / 49</b><span>Tests passed</span></div>
+</div>
+<div class="wrap"><table>
+<thead><tr><th>File</th><th>Coverage</th><th class="n">%</th><th class="n">Lines covered</th><th class="n">Uncovered lines</th></tr></thead>
+<tbody>
+<tr><td class="f">lib/calculator/calculator.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">7 / 7</td><td class="n">-</td></tr>
+<tr><td class="f">lib/calculator/calculator_screen.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">36 / 36</td><td class="n">-</td></tr>
+<tr><td class="f">lib/form/login_form.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">19 / 19</td><td class="n">-</td></tr>
+<tr><td class="f">lib/form/validators.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">7 / 7</td><td class="n">-</td></tr>
+<tr><td class="f">lib/main.dart</td><td><div class="bar"><span style="width:83.3%"></span></div></td><td class="n">83.3%</td><td class="n">20 / 24</td><td class="n">11, 12, 60, 62</td></tr>
+<tr><td class="f">lib/models/post.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">8 / 8</td><td class="n">-</td></tr>
+<tr><td class="f">lib/posts/posts_screen.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">22 / 22</td><td class="n">-</td></tr>
+<tr><td class="f">lib/services/post_service.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">8 / 8</td><td class="n">-</td></tr>
+<tr><td class="f">lib/state/counter_notifier.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">10 / 10</td><td class="n">-</td></tr>
+<tr><td class="f">lib/state/counter_screen.dart</td><td><div class="bar"><span style="width:100.0%"></span></div></td><td class="n">100.0%</td><td class="n">20 / 20</td><td class="n">-</td></tr>
+</tbody>
+<tfoot><tr><td>Total</td><td></td><td class="n">97.5%</td><td class="n">157 / 161</td><td></td></tr></tfoot>
+</table></div>
+<div class="note">
+<b>Uncovered lines</b><br>
+<code>lib/main.dart</code> lines 11-12: the <code>main()</code> function that calls <code>runApp</code>. Widget tests pump <code>MyApp</code> directly, so <code>main()</code> itself is not executed.<br>
+<code>lib/main.dart</code> lines 60, 62: the "Posts" menu item creates a real <code>http.Client</code>. It is not tapped in tests to avoid a real network call; <code>PostsScreen</code> is tested separately with a mocked client.
+</div>
+</body></html>
