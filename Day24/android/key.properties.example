@@ -1,0 +1,7 @@
+# Copy this file to android/key.properties and fill in your own values.
+# android/key.properties and *.jks are git-ignored. NEVER commit them.
+storePassword=CHANGE_ME
+keyPassword=CHANGE_ME
+keyAlias=upload
+# Path relative to android/app/
+storeFile=upload-keystore.jks

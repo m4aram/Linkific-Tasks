@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- bag handle -->
+    <path
+        android:pathData="M45,48 V43 A9,9 0 0 1 63,43 V48"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- bag body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,46 H70 A3,3 0 0 1 73,49 V71 A6,6 0 0 1 67,77 H41 A6,6 0 0 1 35,71 V49 A3,3 0 0 1 38,46 Z" />
+    <!-- check mark -->
+    <path
+        android:pathData="M46,61 L52,67 L63,55"
+        android:strokeColor="#1B7F5C"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
