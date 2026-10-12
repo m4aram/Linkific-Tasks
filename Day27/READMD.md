@@ -1,5 +1,4 @@
-   # Day 27 – Expense Tracker (Flutter + Supabase App)
-
+   # Day 27 – Expense Tracker (Flutter + Supabase)
 A Flutter app where each user signs up, logs in, and manages their own expenses.
 Data is stored in Supabase and protected with Row Level Security.
 
