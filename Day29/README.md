@@ -363,5 +363,5 @@ provider (state) API are in **[docs/API.md](docs/API.md)**.
 | 1.2.0 | Documentation & deployment: README, API docs, architecture diagram, release signing setup, INTERNET permission fix for release builds, presentation materials |
 
 ---
-
+📥 **Download:** `app-arm64-v8a-release.apk` (most Android phones, 18.3 MB)
 **Author:** Maram Sharaf · Built during the Flutter internship program.
