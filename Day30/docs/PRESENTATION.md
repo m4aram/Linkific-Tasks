@@ -60,18 +60,18 @@ they are a required item.
 
 ## 3. Before you present: setup checklist
 
-- [ ] Release APK installed on the demo phone (or emulator open), phone fully charged
-- [ ] Screen mirroring tested (scrcpy / Android Studio "Running Devices" / projector cable)
-- [ ] **Do Not Disturb** on, notifications off, "Show taps" on (Developer options)
-- [ ] Internet working, with a hotspot as backup
-- [ ] Logged **out**, so the demo starts on the login screen
-- [ ] **Demo account** ready: `demo@expensetracker.app`, password written on paper
-- [ ] Demo account has the seed data below
-- [ ] A **second email** that is NOT registered, for the live sign-up (e.g. `maram.demo2@...`)
-- [ ] Know how to turn on **Airplane mode** quickly (quick settings) for the offline edge case
-- [ ] Backup video open in another window
-- [ ] Slides in presenter mode, GitHub repo open in a browser tab (in case they ask to see code)
-- [ ] VS Code / Android Studio open on `validators.dart` (in case they ask for more code)
+- [✅ ] Release APK installed on the demo phone (or emulator open), phone fully charged
+- [✅ ] Screen mirroring tested (scrcpy / Android Studio "Running Devices" / projector cable)
+- [✅ ] **Do Not Disturb** on, notifications off, "Show taps" on (Developer options)
+- [✅] Internet working, with a hotspot as backup
+- [✅ ] Logged **out**, so the demo starts on the login screen
+- [✅ ] **Demo account** ready: `demo@expensetracker.app`, password written on paper
+- [✅ ] Demo account has the seed data below
+- [✅ ] A **second email** that is NOT registered, for the live sign-up (e.g. `maram.demo2@...`)
+- [✅ ] Know how to turn on **Airplane mode** quickly (quick settings) for the offline edge case
+- [✅ ] Backup video open in another window
+- [✅ ] Slides in presenter mode, GitHub repo open in a browser tab (in case they ask to see code)
+- [✅ ] VS Code / Android Studio open on `validators.dart` (in case they ask for more code)
 
 **Seed data for the demo account** (add the day before):
 
