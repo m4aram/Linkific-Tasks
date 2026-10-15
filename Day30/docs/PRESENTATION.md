@@ -14,17 +14,17 @@ part, the work and Git part, Q&A preparation and a backup plan.
 
 | Required section | Time | Slides | ✓ |
 |---|---|---|---|
-| **Introduction**: project overview (the "team" is you) | 2 min | 1–4 | ☐ |
-| **Live demo**: show all features | 10 min | 5–7 + phone | ☐ |
-| ↳ User flows | | 7 + phone (Part A) | ☐ |
-| ↳ Edge cases | | 8 + phone (Part B) | ☐ |
-| **Technical discussion**: architecture | 5 min | 9–10 | ☐ |
-| ↳ Challenges solved | | 11 | ☐ |
-| ↳ Code walkthrough | | 12–13 | ☐ |
-| **Collaboration**: work division | 3 min | 15 | ☐ |
-| ↳ Git workflow | | 16 | ☐ |
-| ↳ Learnings | | 17 | ☐ |
-| **Q&A** | 5 min | 18 | ☐ |
+| **Introduction**: project overview (the "team" is you) | 2 min | 1–4 | ✓ |
+| **Live demo**: show all features | 10 min | 5–7 + phone | ✓ |
+| ↳ User flows | | 7 + phone (Part A) | ✓ |
+| ↳ Edge cases | | 8 + phone (Part B) | ✓ |
+| **Technical discussion**: architecture | 5 min | 9–10 | ✓ |
+| ↳ Challenges solved | | 11 | ✓ |
+| ↳ Code walkthrough | | 12–13 | ✓ |
+| **Collaboration**: work division | 3 min | 15 | ✓ |
+| ↳ Git workflow | | 16 | ✓ |
+| ↳ Learnings | | 17 | ✓ |
+| **Q&A** | 5 min | 18 | ✓ |
 
 ---
 
