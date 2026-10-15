@@ -108,10 +108,3 @@ Attach the demo video (or 3–4 screenshots) to the post. Posts with video get m
 
 ---
 
-## 5. Next steps for the job search
-
-1. Publish the LinkedIn post within a day of the presentation, while it's fresh.
-2. Update the CV and LinkedIn "Projects" with the text above.
-3. Add the APK to a GitHub Release so recruiters can try it.
-4. Practise the 30-second pitch out loud until it feels natural.
-5. Keep improving the app (budgets or charts) and commit regularly; an active GitHub helps.
