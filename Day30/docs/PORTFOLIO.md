@@ -15,13 +15,13 @@ Replace `<...>` with your own links.
 **Topics:** `flutter` `dart` `supabase` `postgresql` `provider` `row-level-security` `mobile-app` `android` `expense-tracker` `material-design`
 
 **Checklist**
-- [ ] README has screenshots of all main screens (add home, details and dark mode)
-- [ ] Demo GIF or video link at the top of the README
-- [ ] **Releases → Create a release** `v1.2.0`, and attach `app-release.apk` so anyone can install it
-- [ ] Pin the repo on your GitHub profile
-- [ ] No secrets in the repo (`key.properties`, `*.jks`, service_role key)
-- [ ] A clear license (MIT) if you want others to see it as open source
-- [ ] Profile README (`<username>/<username>` repo) with a short intro and this project
+- [✅] README has screenshots of all main screens (add home, details and dark mode)
+- [✅ ] Demo GIF or video link at the top of the README
+- [✅ ] **Releases → Create a release** `v1.2.0`, and attach `app-release.apk` so anyone can install it
+- [✅ ] Pin the repo on your GitHub profile
+- [✅ ] No secrets in the repo (`key.properties`, `*.jks`, service_role key)
+- [✅ ] A clear license (MIT) if you want others to see it as open source
+- [✅ ] Profile README (`<username>/<username>` repo) with a short intro and this project
 
 ---
 
